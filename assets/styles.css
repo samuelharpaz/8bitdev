@@ -1,5 +1,5 @@
 /* Import fonts from Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Inter:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Inter:wght@300;400;500;600&display=swap');
 
 /* Retro Gaming Color Scheme - Inspired by classic NES gamepad */
 :root {
@@ -10,6 +10,8 @@
   --retro-white: #ffffff;
   --retro-shadow: rgba(42, 42, 42, 0.3);
   --retro-letter-spacing: 2px;
+
+  --retro-font-body: sans serif;
 }
 
 /* Global styles */
@@ -19,7 +21,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   background: var(--retro-white);
   min-height: 100vh;
   color: var(--retro-grey);
@@ -33,7 +35,7 @@ h4,
 h5,
 h6 {
   font-weight: normal;
-  font-family: "Jersey 10", cursive;
+  font-family: 'Jersey 10', cursive;
   letter-spacing: var(--retro-letter-spacing);
 }
 
@@ -58,7 +60,7 @@ h6 {
   text-decoration: none;
   text-shadow: 1px 1px 2px var(--retro-shadow);
   font-weight: normal;
-  font-family: "Jersey 10", cursive;
+  font-family: 'Jersey 10', cursive;
   letter-spacing: var(--retro-letter-spacing);
 }
 
@@ -71,7 +73,7 @@ h6 {
 .nav-links a {
   color: var(--retro-grey);
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   padding: 0.5rem 1rem;
   transition: all 0.1s ease;
@@ -98,7 +100,7 @@ h6 {
   color: var(--retro-white);
   text-shadow: 3px 3px 0px var(--retro-red);
   margin-bottom: 1rem;
-  font-family: "Jersey 10", cursive;
+  font-family: 'Jersey 10', cursive;
   letter-spacing: 2px;
 }
 
@@ -118,7 +120,7 @@ h6 {
 }
 
 .content p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   margin-bottom: 1rem;
 }
@@ -217,7 +219,6 @@ h6 {
   color: var(--retro-white);
   border-color: var(--retro-red);
 }
-
 
 /* About Page Specific Styles */
 .about-topics {
@@ -329,7 +330,7 @@ h6 {
   font-size: 0.9rem;
 }
 
-.checkbox-label input[type="checkbox"] {
+.checkbox-label input[type='checkbox'] {
   width: 18px;
   height: 18px;
   margin: 0;
@@ -463,7 +464,7 @@ h6 {
   border: 3px solid var(--retro-red);
   background: var(--retro-red);
   color: var(--retro-white);
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -524,7 +525,7 @@ h6 {
 }
 
 .hints-subtitle {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: var(--retro-grey);
   font-size: 1.1rem;
   margin-bottom: 3rem;
@@ -569,7 +570,7 @@ h6 {
 }
 
 .hint-card p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: var(--retro-grey);
   line-height: 1.6;
   margin: 0;
@@ -706,7 +707,7 @@ h6 {
 }
 
 .footer-brand p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: var(--retro-grey);
   line-height: 1.6;
   max-width: 400px;
@@ -736,7 +737,7 @@ h6 {
 .footer-section a {
   color: var(--retro-grey);
   text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   transition: color 0.2s ease;
 }
@@ -752,7 +753,7 @@ h6 {
 }
 
 .footer-bottom p {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #a0a0a0;
   margin: 0;
   font-size: 0.9rem;
