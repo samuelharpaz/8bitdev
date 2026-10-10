@@ -25,7 +25,7 @@ body {
   background: var(--retro-white);
   min-height: 100vh;
   color: var(--retro-grey);
-  line-height: 1.6;
+  line-height: 1.5;
 }
 /* Headings */
 h1,
@@ -34,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
+  font-weight: 500;
   font-family: 'Jersey 10', cursive;
   letter-spacing: var(--retro-letter-spacing);
 }
