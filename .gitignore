@@ -1,1 +1,9 @@
 notes.md
+
+.vscode/
+
+.env
+
+*.log
+
+node_modules/
